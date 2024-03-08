@@ -32,9 +32,6 @@ def init_db():
 def init_db_command():
     """Clear existing data and create new tables."""
     init_db()
-    
-
-
     click.echo("Initialized the database.")
 
 

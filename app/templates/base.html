@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 <section class="content">
-    <header>{% block header}{% endblock %}</header>
+    <header>{% block header %}{% endblock %}</header>
 
     {% for msg in get_flashed_messages() %}
         <div class="flash">{{ message }}</div>

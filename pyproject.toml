@@ -4,6 +4,7 @@ version = "0.0.1"
 description = "An application that randomly selects a movie."
 dependencies = [
     "flask",
+    "requests"
 ]
 
 [build-system]

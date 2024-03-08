@@ -163,3 +163,4 @@ cython_debug/
 #begin custom ignore paths
 
 movie_roulette.code-workspace
+api_key
